@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Testing Task</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-content">
+            <button class="header-video-button" onclick="window.open('https://rutube.ru/video/cfeea71698c16486b9404dbff24ba96e/?r=wd', '_blank')">
+                <div class="header-video-button-container">
+                    <div class="header-video-text">Смотреть видео</div>
+                    <img class="header-video-play" src="assets/images/triangle.svg" alt="">
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="cards">
+
+            <div class="peas">
+                <div class="card-head-inline">
+                    <div class="card-text">Горох в стручках, 1 кг</div>
+                    <div class="favorites">
+                        <button class="favorites-icon"><img src="assets/images/heart.svg" alt=""></button>
+                        <button class="favorites-icon"><img src="assets/images/eye.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="card-tail-inline">
+                    <div class="notes">
+                        <div class="note" style="background-color: #18C576;">
+                            - 29%
+                        </div>
+                        <div  class="note" style="background-color: #FFA726;">
+                            Товар дня
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="price">
+                            570 ₽
+                        </div>
+                        <button class="button-form" onclick="document.getElementById('modal').style.display='flex'">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blueberry">
+                <div class="card-head-inline">
+                    <div class="card-text">Голубика лесная, 200 г</div>
+                    <div class="favorites">
+                        <button class="favorites-icon"><img src="assets/images/heart.svg" alt=""></button>
+                        <button class="favorites-icon"><img src="assets/images/eye.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="card-tail-inline">
+                    <div class="notes">
+                        <div class="note" style="background-color: #FF5BC6;">
+                            - 31%
+                        </div>
+                        <div  class="note" style="background-color: #39B0F4;">
+                            Распродажа
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="price">
+                            140 ₽
+                        </div>
+                        <button class="button-form" onclick="document.getElementById('modal').style.display='flex'">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrot">
+                <div class="card-head-inline">
+                    <div class="card-text">Морковь мытая, 1 кг</div>
+                    <div class="favorites">
+                        <button class="favorites-icon"><img src="assets/images/heart.svg" alt=""></button>
+                        <button class="favorites-icon"><img src="assets/images/eye.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="card-tail-inline">
+                    <div class="notes">
+                        <div class="note" style="background-color: #AC59F1;">
+                            Хит
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="price">
+                            140 ₽
+                        </div>
+                        <button class="button-form" onclick="document.getElementById('modal').style.display='flex'">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="popcorn-container">
+                <div class="popcorn">
+                    <div class="card-head-inline">
+                        <div class="notes">
+                            <div class="note" style="background-color: #FFA726;">
+                                Товар дня
+                            </div>
+                            <div  class="note" style="background-color: #18C576;">
+                                - 29%
+                            </div>
+                        </div>
+                        <div class="favorites">
+                            <button class="favorites-icon"><img src="assets/images/heart.svg" alt=""></button>
+                            <button class="favorites-icon"><img src="assets/images/eye.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-tail-ice-cream-popcorn">
+                    <div class="card-text-ice-cream-popcorn">Попкорн солёный,<br>для СВЧ-печи, 120 г</div>
+                    <div class="order" style="flex-direction: column;">
+                        <div class="price" style="color: #444444;">
+                            160 ₽
+                        </div>
+                        <button class="button-form" style="padding: 6px 29px;" onclick="document.getElementById('modal').style.display='flex'">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="ice-cream-container">
+                <div class="ice-cream">
+                    <div class="card-head-inline">
+                        <div class="notes">
+                            <div class="note" style="background-color: #AC59F1;">
+                                Хит
+                            </div>
+                        </div>
+                        <div class="favorites">
+                            <button class="favorites-icon"><img src="assets/images/heart.svg" alt=""></button>
+                            <button class="favorites-icon"><img src="assets/images/eye.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-tail-ice-cream-popcorn">
+                    <div class="card-text-ice-cream-popcorn">Эскимо с малиной,<br>150 г</div>
+                    <div class="order" style="flex-direction: column;">
+                        <div class="price" style="color: #444444;">
+                            190 ₽
+                        </div>
+                        <button class="button-form" style="padding: 6px 29px;" onclick="document.getElementById('modal').style.display='flex'">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slider-container" style="display: none;"></div>
+    </div>
+
+    
+
+    <div class="modal-container" id="modal">
+        <div class="modal-content">
+            <div class="modal-heading">
+                <span class="modal-heading-text">Оставьте заявку</span>
+                <span class="modal-close-button" onclick="closeModal()">&times;</span>
+            </div>
+            
+            <form class="modal-form" id="form" action="#" method="post" novalidate>
+                <div class="input-container">
+                    <input type="text" placeholder="Ваше имя*" class="styled-input" required>
+                    <div class="error-message" style="display: none;"></div>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" placeholder="Номер телефона*" class="styled-input" required pattern="^\+?[0-9\s\-\(\)]{7,15}$">
+                    <div class="error-message" style="display: none;"></div>
+                </div>
+                
+                <div class="modal-content-tail">
+                    <div class="input-container">
+                        <label class="custom-checkbox-container">
+                            <input type="checkbox" name="check" id="check" required>
+                            <span class="custom-checkbox"></span>
+                            <span class="checkbox-text">Я соглашаюсь на обработку персональных данных</span>     
+                        </label>
+                        <div class="error-message" style="display: none;"></div>
+                    </div>
+    
+                    <button type="submit" class="button-form">Отправить</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
